@@ -33,7 +33,7 @@ body {
     color: white;
   }
   .jumbotron {
-    background-color: #212121;
+    background-color: #18181B;
   }
 </style>
 </head>
