@@ -8,18 +8,11 @@ $playing = file_get_contents('https://jensz12.com/playing.php');
 <meta name="charset" content="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Now Playing - Jens Møller</title>
+<title>Now Playing</title>
 <meta name="description" content="Now Playing ">
 <link rel="icon" href="https://jensz12.com/favicon.png">
 <meta name="theme-color" content="#A81010">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@jensz12">
-<meta name="twitter:creator" content="@jensz12">
-<meta name="twitter:title" content="Now Playing ">
-<meta name="twitter:description" content="Now Playing ">
-<meta name="twitter:image:src" content="https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
-<link rel="image_src" href="/https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css" integrity="sha256-ieo/1m9y+1GF2wb20E00j0CTD42N7enNWThlTLjuflg=" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -52,8 +45,7 @@ body {
 	</div>
 </main>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script>
 $(function () { $('[data-toggle="tooltip"]').tooltip() })
 function worker(){
